@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+
+venv/
+.env
+
+.ipynb_checkpoints/
+
+data/
+UCI HAR Dataset/
+
+models/*.pkl
+models/*.pth
+
+Project8.code-workspace
