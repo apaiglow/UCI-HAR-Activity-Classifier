@@ -55,23 +55,41 @@ using 561 sensor features collected from smartphones.
 
 ## Project Structure
 Project8/
+
 │── streamlit_app.py
+
 │── requirements.txt
+
 │── README.md
+
 │
+
 ├── src/
+
 │ ├── model.py
+
 │ ├── predict.py
+
 │
+
 ├── models/
+
 │ ├── pca.pkl
+
 │ ├── ann_model.pth
+
 │ ├── class_names.pkl
+
 │ ├── best_params.pkl
+
 │
+
 ├── notebooks/
+
 │ ├── model01.ipynb
+
 │ ├── model02.ipynb
+
 │ ├── model03.ipynb
 
 
@@ -82,6 +100,7 @@ Project8/
 ### 1. Clone repo
 
 git clone https://github.com/apaiglow/UCI-HAR-Activity-Classifier.git
+
 cd UCI-HAR-Activity-Classifier
 
 ### 2. Install dependencies
@@ -111,6 +130,7 @@ streamlit run streamlit_app.py
 ## Author
 
 Built by Abhiyan Paudel
+
 Aspiring AL/ML Engineer
 
 ---
