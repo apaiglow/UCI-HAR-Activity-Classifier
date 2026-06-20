@@ -77,6 +77,10 @@ Project8/
 
 │ ├── predict.py
 
+│ ├── training.py
+
+│ ├── preprocess.py
+
 │
 
 ├── models/
