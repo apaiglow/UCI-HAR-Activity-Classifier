@@ -5,6 +5,12 @@ The project includes data preprocessing, EDA, notebooks, PCA, deep learning mode
 
 ---
 
+## Live Demo
+
+https://uci-har-activity-classifier.streamlit.app/
+
+---
+
 ## Project Overview
 
 This project predicts human activities such as:
