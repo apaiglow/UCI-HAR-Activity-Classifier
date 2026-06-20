@@ -129,7 +129,7 @@ streamlit run streamlit_app.py
 
 ## Author
 
-Built by Abhiyan Paudel
+Built by **Abhiyan Paudel**
 
 Aspiring AL/ML Engineer
 
