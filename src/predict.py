@@ -2,14 +2,18 @@ import pickle
 import pandas as pd
 import torch
 from src.model import MyNN
+from pathlib import Path
 
-with open("models/pca.pkl", "rb") as file:
+base_dir = Path(__file__).resolve().parent.parent
+models_dir = base_dir / 'models'
+
+with open(models_dir/"pca.pkl", "rb") as file:
     pca = pickle.load(file)
 
-with open("models/class_names.pkl", "rb") as file:
+with open(models_dir/"class_names.pkl", "rb") as file:
     class_names = pickle.load(file)
 
-with open("models/best_params.pkl", "rb") as f:
+with open(models_dir/"best_params.pkl", "rb") as f:
     best_params = pickle.load(f)
 
 num_hidden_layer = best_params['num_hidden_layers']
@@ -20,7 +24,7 @@ output_dim = len(class_names)
 
 model = MyNN(input_dim, output_dim, num_hidden_layer, neuron_per_layer, dropout_ratio)
 
-model.load_state_dict(torch.load('models/ann_model.pth', map_location = 'cpu'))
+model.load_state_dict(torch.load(models_dir/'ann_model.pth', map_location = 'cpu'))
 
 model.eval()
 
