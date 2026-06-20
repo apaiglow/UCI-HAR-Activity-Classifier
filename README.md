@@ -1,4 +1,5 @@
 # UCI HAR Activity Recognition (Deep Learning + Streamlit)
+#### (⚠️ Note: Notebooks were used only for experimentation and EDA. Final production pipeline is implemented in /src and streamlit_app.py)
 
 A machine learning project that classifies human activities using sensor data from the **UCI HAR dataset**.  
 The project includes data preprocessing, EDA, notebooks, PCA, deep learning model training, hyperparameter tuning, and a deployed Streamlit web app.
