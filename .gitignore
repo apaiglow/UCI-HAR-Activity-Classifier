@@ -9,7 +9,4 @@ venv/
 data/
 UCI HAR Dataset/
 
-models/*.pkl
-models/*.pth
-
 Project8.code-workspace
